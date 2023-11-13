@@ -1,0 +1,14 @@
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\bin\Debug\net6.0\xadrez.exe
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\bin\Debug\net6.0\xadrez.deps.json
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\bin\Debug\net6.0\xadrez.runtimeconfig.json
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\bin\Debug\net6.0\xadrez.dll
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\bin\Debug\net6.0\xadrez.pdb
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\xadrez.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\xadrez.AssemblyInfoInputs.cache
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\xadrez.AssemblyInfo.cs
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\xadrez.csproj.CoreCompileInputs.cache
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\xadrez.dll
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\refint\xadrez.dll
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\xadrez.pdb
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\xadrez.genruntimeconfig.cache
+F:\Programming stuff\C#\Learning Projects\xadrez\xadrez\obj\Debug\net6.0\ref\xadrez.dll
