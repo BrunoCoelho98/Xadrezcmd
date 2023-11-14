@@ -21,11 +21,7 @@ namespace xadez
                     try
                     {
                         Console.Clear();
-                        Tela.imprimirtabuleiro(partida.tab);
-                        Console.WriteLine();
-                        Console.Write("Turno: " + partida.turno);
-                        Console.WriteLine();
-                        Console.WriteLine("Aguardadno jogada: " + partida.jogadorAtual);
+                        Tela.imprimirPartida(partida);
 
                         Console.WriteLine();
                         Console.Write("Origem: ");
