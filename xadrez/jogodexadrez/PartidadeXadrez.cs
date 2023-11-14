@@ -7,8 +7,8 @@ namespace jogodexadrez
     {
 
         public Tabuleiro tab {get; private set;}
-        private int turno;
-        private Cor jogadorAtual;
+        public int turno { get; private set; }
+        public Cor jogadorAtual { get; private set; }
         public bool terminada { get; private set;}
 
         public PartidadeXadrez()
@@ -18,7 +18,18 @@ namespace jogodexadrez
             jogadorAtual = Cor.Branca;
             terminada = false;
             colocarPecas();
-     
+
+        }
+        
+        private void mudaJogador()
+        {
+            if (jogadorAtual == Cor.Branca)
+            {
+                jogadorAtual = Cor.Preta;
+            } else
+            {
+                jogadorAtual = Cor.Branca;
+            }
         }
 
         public void executaMovimento(Posicao origem, Posicao destino)
@@ -27,6 +38,13 @@ namespace jogodexadrez
             p.incrementarqtdMovimentos();
             Peca pecaCapturada = tab.retirarPeca(destino);
             tab.colocarPeca(p, destino);
+        }
+
+        public void realizaJogada(Posicao origem, Posicao destino)
+        {
+            executaMovimento(origem, destino);
+            turno++;
+            mudaJogador();
         }
 
         private void colocarPecas()
