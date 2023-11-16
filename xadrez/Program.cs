@@ -15,7 +15,6 @@ namespace xadez
             {
                 PartidadeXadrez partida = new PartidadeXadrez();
 
-                Tela.imprimirtabuleiro(partida.tab);
                 while (!partida.terminada)
                 {
                     try
@@ -47,9 +46,8 @@ namespace xadez
                     }
 
                 }
-
-
-                
+                Console.Clear();
+                Tela.imprimirPartida(partida);
 
             }
             catch (TabuleiroException e) {
