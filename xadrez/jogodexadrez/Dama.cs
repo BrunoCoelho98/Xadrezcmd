@@ -81,7 +81,7 @@ namespace jogodexadrez
                 {
                     break;
                 }
-                pos.linha = pos.linha - 1;
+                pos.definirValores(pos.linha - 1, pos.coluna - 1);
             }
 
             // abaixo direita
@@ -93,7 +93,7 @@ namespace jogodexadrez
                 {
                     break;
                 }
-                pos.linha = pos.linha + 1;
+                pos.definirValores(pos.linha + 1, pos.coluna + 1);
             }
 
             // Cima direita
@@ -105,7 +105,7 @@ namespace jogodexadrez
                 {
                     break;
                 }
-                pos.coluna = pos.coluna + 1;
+                pos.definirValores(pos.linha - 1, pos.coluna + 1);
             }
 
             // Baixo esquerda
@@ -117,7 +117,7 @@ namespace jogodexadrez
                 {
                     break;
                 }
-                pos.coluna = pos.coluna - 1;
+                pos.definirValores(pos.linha + 1, pos.coluna - 1);
             }
 
 
